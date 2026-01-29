@@ -30,7 +30,8 @@
     }
   },
   "resolutions": {
-    "@xmldom/xmldom": "0.7.6"
+    "@xmldom/xmldom": "0.7.6",
+    "tar": "^7.5.7"
   },
   "babel": {
     "presets": [
