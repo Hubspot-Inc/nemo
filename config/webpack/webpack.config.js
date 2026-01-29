@@ -1,8 +1,7 @@
 const { globalMutableWebpackConfig: webpackConfig, merge } = require('shakapacker')
 
-module.exports = merge(
-  webpackConfig,
-  {
+const customConfig = {
+  module: {
     rules: [
       {
         test: /\.test\.js$/,
@@ -14,6 +13,6 @@ module.exports = merge(
       }
     ]
   }
-)
+}
 
-module.exports = webpackConfig
+module.exports = merge(webpackConfig, customConfig)

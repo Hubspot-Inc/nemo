@@ -1,4 +1,4 @@
-// See also Ruby config/webpack/environment.js
+// See also Ruby config/webpack/webpack.config.js
 //
 // See docs at https://babeljs.io/docs/en/options
 //
